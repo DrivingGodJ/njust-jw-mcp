@@ -1,0 +1,31 @@
+{
+  "name": "njust-jw-mcp",
+  "version": "1.3.0",
+  "description": "南京理工大学教务系统 MCP 服务器：课表、成绩、考试、学籍、培养方案、空闲教室，纯 HTTP 登录，无需浏览器。",
+  "type": "module",
+  "bin": {
+    "njust-jw-mcp": "./index.mjs"
+  },
+  "main": "./index.mjs",
+  "files": [
+    "index.mjs",
+    "scripts/"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "njust",
+    "timetable",
+    "campus",
+    "claude",
+    "workbuddy"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DrivingGodJ/njust-jw-mcp.git"
+  }
+}

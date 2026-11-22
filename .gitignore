@@ -1,0 +1,9 @@
+node_modules/
+.DS_Store
+*.log
+# 任何本地凭据都不要进仓库
+credential.json
+jw-cookie.json
+*.cookie
+*.jar.txt
+.env
